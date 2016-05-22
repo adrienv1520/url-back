@@ -1,4 +1,4 @@
-# URL -> Back
+# URL <- Back
 
 A simple way to get the referer URL for a page.
 
