@@ -1,23 +1,24 @@
 {
   "name": "url-back",
-  "version": "0.0.0",
-  "description": "Simply get the referer",
+  "version": "0.1.0",
+  "description": "A simple way to get the referer URL for a page",
   "author": "Adrien Valcke <a.valcke@free.fr>",
-  "scripts": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AdVg/url-back"
+    "url": "https://github.com/AdVg/url-back.git"
   },
   "keywords": [
     "url",
     "back",
     "referer"
   ],
-  "dependencies": {
-    "url": "~0.11.0"
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "preferGlobal": false,
-  "private": true,
+  "private": false,
   "analyze": false,
   "license": "MIT"
 }
