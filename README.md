@@ -1,5 +1,7 @@
 # URL <- Back
 
+<img src="logo.png" alt="URL Back" align="right" />
+
 A simple way to get the referer URL for a page.
 
 ## Installation
