@@ -1,0 +1,23 @@
+{
+  "name": "url-back",
+  "version": "0.0.0",
+  "description": "Simply get the referer",
+  "author": "Adrien Valcke <a.valcke@free.fr>",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdVg/url-back"
+  },
+  "keywords": [
+    "url",
+    "back",
+    "referer"
+  ],
+  "dependencies": {
+    "url": "~0.11.0"
+  },
+  "preferGlobal": false,
+  "private": true,
+  "analyze": false,
+  "license": "MIT"
+}
