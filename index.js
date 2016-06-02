@@ -9,7 +9,8 @@ var url = require('url');
  */
 module.exports = function (req) {
   if (req.constructor.name === 'IncomingMessage') {
-    var urlBack = url.parse(req.header('Referer'));
+    var urlBack = req.header('Referer');
+    if (!urlBack) return false;
     if (urlBack.hostname === req.hostname) {
       return urlBack.pathname || false;
     } else {
